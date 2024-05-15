@@ -5,9 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muebleria Don Chepe</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-   
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .conteiner{
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: 100px 80px auto;
+	        gap: 1rem;
+
+        }
+        .product{
+            text-align: center;
+            padding: 5px;
+
+        }
+        header{
+            text-align: center;
+        }
+
+    </style>
 </head>
 <body>
     <header>
@@ -22,55 +43,55 @@
         <a href="#">Contacto</a>
     </nav>
    
-    <div class="hero"></div>
-
-    <h2> Nuestros Productos</h2>
-
-    <div class="product">
+    <div class="hero"> </div>
+    <h2 style="text-align: center;"> Nuestros Productos</h2>
+    <div class="conteiner">
+    <div class="product" id="item1">
         <img src="producto1.jpg" alt="Juego de recamara individual" width="800" height="600">
         <h3>Producto 1</h3>
         <p>descripcion del mueble1</p>
         <p>$6,000.00</p>
         <button>Agregar al carrito</button>
-    </div>
-    <div class="product">
+     </div>
+        <div class="product">
         <img src="producto2.jpg" alt="JRecibidor" width="800" height="600">
         <h3>Producto 2</h3>
         <p>descripcion del mueble2</p>
         <p>$3,000.00</p>
         <button>Agregar al carrito</button>
-    </div>
-    <div class="product">
+     </div>
+     <div class="product" id=item3>
         <img src="producto3.jpg" alt="Cama Matrimonial" width="800" height="600">
         <h3>Producto 3</h3>
         <p>descripcion del mueble 3</p>
         <p>$15,000.00</p>
         <button>Agregar al carrito</button>
-    </div>
-    <div class="product">
+     </div>
+     <div class="product" id="item4">
         <img src="producto4.jpg" alt="Sofa de 3 plazas" width="800" height="600">
         <h3>Producto 4</h3>
         <p>descripcion del mueble 4</p>
         <p>$13,000.00</p>
         <button>Agregar al carrito</button>
-    </div>
-    <div class="product">
+     </div>
+     <div class="product" id="item5">
         <img src="producto5.jpg" alt="Reposet de diseñador" width="800" height="600">
         <h3>Producto 5</h3>
         <p>descripcion del mueble 5</p>
         <p>$8,000.00</p>
         <button>Agregar al carrito</button>
-    </div>
-    <div class="product">
+     </div>
+     <div class="product" id="item6">
         <img src="producto6.jpg" alt="Sofa 2 plazas" width="800" height="600">
         <h3>Producto 6</h3>
         <p>descripcion del mueble 6</p>
         <p>$11,000.00</p>
         <button>Agregar al carrito</button>
     </div>
+</div>
     <Section>
     <h2>Categorias de productos</h2>
-     <div clas="Categorias">
+     <div class="Categorias">
         <div>
             <img src="categoria1.jpg" alt="Categoria 1">
             <h2><a href="#">Oficina</a></h2>
@@ -83,7 +104,7 @@
             <img src="categoria3.jpg" alt="Categoria 3">
             <h2><a href="#">Sala</a></h2>
         </div>
-     </div>
+
      </Section>
      <footer>
         <div>

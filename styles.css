@@ -1,0 +1,30 @@
+span{
+    color: #037BC0;
+}
+*html{
+    font-size: 62.5;
+}
+body{
+    font-family: "Raleway", sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+nav{
+    background-color: rgb(95, 85, 85);
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    padding: 30px;
+    color: aliceblue;
+}
+h1,h2,h3{
+    font-family: "playfair", sans-serif;
+}
+.hero{
+    background-image: url(principal.jpg);
+    background-size: 25rem;
+    background-repeat: no-repeat;
+}
