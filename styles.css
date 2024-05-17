@@ -4,11 +4,23 @@ span{
 *html{
     font-size: 62.5;
 }
+body nav{
+    background-color: #3b3b3b;
+    text-align: center;
+}
+nav a{
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: beige;
+}
+
 body{
     font-family: "Raleway", sans-serif;
     font-size: 1.6rem;
     line-height: 2;
 }
+
 h3{
     text-align: center;
 }
@@ -21,8 +33,26 @@ h1,h2,h3{
     background-repeat: no-repeat; 
 }
 footer {
-    background-color: #037BC0;
-    display: flex;  
+    background-color: #3b3b3b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }
-
-
+footer div h3{
+    text-align: center;
+    color: beige;
+    padding-left: 50px;
+}
+ul li{
+    list-style: none;
+    }
+.footer1{
+    text-align: center;
+}
+.footer2{
+    text-align: center;
+}
+.footer3{
+    text-align: center;
+}
