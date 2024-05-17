@@ -9,16 +9,8 @@ body{
     font-size: 1.6rem;
     line-height: 2;
 }
-nav{
-    background-color: rgb(95, 85, 85);
-    color: aliceblue;
-    padding: 10px;
+h3{
     text-align: center;
-}
-nav a{
-    text-decoration: none;
-    padding: 30px;
-    color: aliceblue;
 }
 h1,h2,h3{
     font-family: "playfair", sans-serif;
@@ -26,5 +18,11 @@ h1,h2,h3{
 .hero{
     background-image: url(principal.jpg);
     background-size: 25rem;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
 }
+footer {
+    background-color: #037BC0;
+    display: flex;  
+}
+
+
