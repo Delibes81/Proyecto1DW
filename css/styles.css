@@ -15,8 +15,6 @@ body nav{
     text-align: center;
 }
 nav a{
-    padding: 20px;
-    text-align: center;
     text-decoration: none;
     color: beige;
 }
@@ -27,13 +25,16 @@ body{
     line-height: 2;
 }
 h1{
+    font-size: 5rem;
     text-align: center;
 }
 h2{
+    font-size: 4rem;
     text-align: center;
 }
 
 h3{
+    font-size: 4rem;
     text-align: center;
 }
 h1,h2,h3{
@@ -44,6 +45,10 @@ h1,h2,h3{
     background-size: 25rem;
     background-repeat: no-repeat; 
 }
+.hero img {
+    width: 100%;
+  }
+  
 .conteiner {
     display: grid;
     grid-template-columns: repeat(6, auto);
@@ -121,3 +126,10 @@ ul li{
     text-align: center;
 }
 
+.bs-blue{
+    color: #037BC0;
+}
+
+.bs-green{
+    color: #8cbc00;
+}
