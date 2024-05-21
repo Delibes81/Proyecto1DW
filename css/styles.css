@@ -100,14 +100,35 @@ h1,h2,h3{
     grid-row: 3 / 4;
     margin: 1rem;
   }
+  .categorias{
+    display: flex;
+    width: 98%;
+    gap: 10px;
+  }
 
+.img-transition{
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.img-transition:hover{
+  transform: scale(1.2);
+}
+
+.card-img-top{
+  object-fit: cover;
+  height: 200px;
+}
 
 footer {
+  padding-left: 30px;
+  padding-right: 30px;
     background-color: #3b3b3b;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
+    text-align: center;
 }
 footer div h3{
     text-align: center;
