@@ -1,23 +1,57 @@
 span{
     color: #037BC0;
 }
-img {
-    max-width: 50vw;
-    height: auto;
-  }
+
   
 *html{
     align-items: center;
     font-size: 62.5;
 }
-body nav{
-    background-color: #3b3b3b;
+
+
+.hero{
+  background-image: url(imagenes/principal.jpg);
+  size: 25rem;
+}
+
+@media screen and (max-width: 768px) {
+  .hero{
+    size: 55rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .conteiner {
+    display: grid;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    padding-left: 10%; 
+    padding-right: 10%;
+     }
+     .conteiner .product:nth-child(1){
+      margin: 1rem;
+     }
+     .conteiner .product:nth-child(2){
+      margin: 1rem;
+     }
+     .conteiner .product:nth-child(3){
+      margin: 1rem;
+     }
+     .conteiner .product:nth-child(4){
+      margin: 1rem;
+     }
+     .conteiner .product:nth-child(5){
+      margin: 1rem;
+     }
+     .conteiner .product:nth-child(6){
+      margin: 1rem;
+     }
+
 }
-nav a{
-    text-decoration: none;
-    color: beige;
-}
+
+
+
 
 body{
     font-family: "Raleway", sans-serif;
@@ -40,15 +74,8 @@ h3{
 h1,h2,h3{
     font-family: "playfair", sans-serif;
 }
-.hero{
-    background-image: url(principal.jpg);
-    background-size: 25rem;
-    background-repeat: no-repeat; 
-}
-.hero img {
-    width: 100%;
-  }
-  
+
+
 .conteiner {
     display: grid;
     grid-template-columns: repeat(6, auto);
@@ -56,12 +83,18 @@ h1,h2,h3{
     justify-content: center;
     align-items: center;
     text-align: center;
-    
-    
-  }
+    padding-left: 10%; 
+    padding-right: 10%;
+     }
+
   .product img {
     width: 100%;
     height: auto;
+  }
+
+  .product{
+    background-color: #037BC0;
+    color: beige;
   }
   
   .conteiner .product:nth-child(1) {
@@ -103,9 +136,8 @@ h1,h2,h3{
   .categorias{
     display: flex;
     width: 98%;
-    gap: 10px;
-    padding: 10px;
-    
+    gap: 20px;
+    padding: 10px;       
   }
 
 .img-transition{
@@ -150,10 +182,4 @@ ul li{
     text-align: center;
 }
 
-.bs-blue{
-    color: #037BC0;
-}
 
-.bs-green{
-    color: #8cbc00;
-}
