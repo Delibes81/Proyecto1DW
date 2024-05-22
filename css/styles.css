@@ -104,6 +104,8 @@ h1,h2,h3{
     display: flex;
     width: 98%;
     gap: 10px;
+    padding: 10px;
+    
   }
 
 .img-transition{
@@ -112,13 +114,14 @@ h1,h2,h3{
 }
 
 .img-transition:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .card-img-top{
   object-fit: cover;
   height: 200px;
 }
+
 
 footer {
   padding-left: 30px;
