@@ -181,5 +181,8 @@ ul li{
 .footer3{
     text-align: center;
 }
-
+ul li a{
+  text-decoration: none;
+  color: beige;
+}
 
