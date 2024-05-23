@@ -9,7 +9,7 @@ span{
 }
 
 
-.hero{
+.hero img{
   background-image: url(imagenes/principal.jpg);
   size: 25rem;
 }
